@@ -1,0 +1,30 @@
+/*PÁGINA CURSOS*/
+
+
+.container{
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 70px 1200px 400px !important;
+
+}
+
+
+.cursos-box{
+    background-color: #107c21;
+    color:#fff;
+}
+
+
+.cursos-box .texto1, .cursos-box .texto2, .cursos-box .texto3, .cursos-box .texto4, .cursos-box .texto5{
+    display:none;
+}
+
+.descricao {
+    margin-top: 1rem;
+    width: 500px;
+    border-radius: 1rem;
+    padding: .5rem;
+    background-color: #fff;
+    color:#000;
+}

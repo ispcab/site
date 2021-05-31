@@ -1,0 +1,21 @@
+/*PÁGINA GALERIA*/
+
+
+.container{
+    grid-template-rows: 70px  1200px !important;
+    background-color:#d1cece;
+}
+
+.main-banner-sobre{
+    
+}
+
+.sobre-pager{
+
+}
+
+.page-title{
+}
+footer{
+    grid-row-start:3 !important;
+}

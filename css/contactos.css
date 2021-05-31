@@ -1,0 +1,25 @@
+/*PÁGINA GALERIA*/
+
+
+.container{
+
+    grid-template-rows: 70px 600px 400px !important;
+    background-color:#d1cece;
+}
+
+
+.contactos-spacer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px 1fr;
+    grid-gap: 1rem 2rem;
+    justify-content: space-around;
+    align-items:stretch;
+    padding:4rem;
+
+ 
+}
+
+.maps-title{
+    grid-area: 1/2/2/3;
+}
